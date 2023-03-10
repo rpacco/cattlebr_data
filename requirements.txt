@@ -1,0 +1,6 @@
+jsonschema
+matplotlib
+pandas
+plotly
+seaborn
+streamlit
