@@ -80,7 +80,7 @@ with open(f'data/amazon_def.csv') as f:
 current_def = amazon_def[region_abv].loc[f"{selected_year}"][0]
 cum_def = amazon_def[region_abv].loc[f"{min_year}":f"{selected_year}"].sum()
 # Creating map figure
-with open(f'data\geojson\{region_id}.json', 'r') as f:
+with open(f'data/geojson/{region_id}.json', 'r') as f:
     json_data = json.load(f)
     coordinates_list = json_data["features"][0]["geometry"]["coordinates"][0]
 
