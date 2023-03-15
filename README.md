@@ -18,6 +18,8 @@ The following steps were taken to analyze the data:
     - Analyzing Norte region and Amazon states (Amazon legal borders)
     - Plotting top 10 mesoregions, considering cattle livestock increase rates
 
+For more details on the methodology and results (plots and graphs also), please refer to the Jupyter notebook [here](https://github.com/rpacco/cattlebr_data/blob/main/cattlebr_studies.ipynb).
+
 # Results 📈🐂
 
 The analysis showed a consistency on the increase of cattle livestock on Brazil over years. Centro-Oeste and Norte regions stand out as the main cattle producers, with continuously increase on their livestock numbers. Another meaningful result was that the top 10 increase rates of cattle livestock of all time series belongs to mesoregions inside the legal borders of Amazon forest. 
@@ -32,5 +34,3 @@ Due to it, a web application was built to analyze the correlation between Brazil
 Please note that the above items will be displayed in the map (hovering text) along with the mesoregion.
 
 ## Web app - [link](https://cattlebr.onrender.com)
-
-For more details on the methodology and results (plots and graphs also), please refer to the Jupyter notebook [here](https://github.com/rpacco/cattlebr_data/blob/main/cattlebr_studies.ipynb).
